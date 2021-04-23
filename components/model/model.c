@@ -95,7 +95,7 @@ void addServo0ControlNode(UA_Server *server)
     attr.accessLevel = UA_ACCESSLEVELMASK_READ | UA_ACCESSLEVELMASK_WRITE;
 
     UA_NodeId currentNodeId = UA_NODEID_STRING(1, "Control servo motor number 0.");
-    UA_QualifiedName currentName = UA_QUALIFIEDNAME(1, "ontrol servo motor number 0..");
+    UA_QualifiedName currentName = UA_QUALIFIEDNAME(1, "Control servo motor number 0..");
     UA_NodeId parentNodeId = UA_NODEID_NUMERIC(0, UA_NS0ID_OBJECTSFOLDER);
     UA_NodeId parentReferenceNodeId = UA_NODEID_NUMERIC(0, UA_NS0ID_ORGANIZES);
     UA_NodeId variableTypeNodeId = UA_NODEID_NUMERIC(0, UA_NS0ID_BASEDATAVARIABLETYPE);
